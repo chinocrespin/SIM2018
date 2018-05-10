@@ -9,3 +9,14 @@ D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\TP Montecarlo\
 D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.csproj.GenerateResource.Cache
 D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.exe
 D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.pdb
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\bin\Debug\TP Montecarlo.exe.config
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.exe
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.pdb
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\bin\Debug\TP Montecarlo.exe
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\bin\Debug\TP Montecarlo.pdb
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\bin\Debug\Montecarlo.dll
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\bin\Debug\Montecarlo.pdb
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.csprojResolveAssemblyReference.cache
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP_Montecarlo.Principal.resources
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP_Montecarlo.Properties.Resources.resources
+D:\Documentos\Ingenieria\4° Año\SIM\Repo\SIM2018\TP4\TP Montecarlo\TP Montecarlo\obj\Debug\TP Montecarlo.csproj.GenerateResource.Cache

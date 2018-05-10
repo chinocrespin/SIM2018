@@ -35,8 +35,6 @@
             this.txtSemanas = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.dgDatos = new System.Windows.Forms.DataGridView();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnCancelarProceso = new System.Windows.Forms.Button();
             this.col_exp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_rnd_a = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_actividad_a = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,13 +46,15 @@
             this.col_actividad_d = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_total_semanas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_ac_semanas_exito = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtProbabilidad = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.btnCancelarProceso = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtFilaDesde = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtCantidadFilas = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtFilaDesde = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatos)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -120,6 +120,9 @@
             // dgDatos
             // 
             this.dgDatos.AllowUserToAddRows = false;
+            this.dgDatos.AllowUserToDeleteRows = false;
+            this.dgDatos.AllowUserToResizeColumns = false;
+            this.dgDatos.AllowUserToResizeRows = false;
             this.dgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgDatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.col_exp,
@@ -137,30 +140,8 @@
             this.dgDatos.Name = "dgDatos";
             this.dgDatos.RowHeadersVisible = false;
             this.dgDatos.RowTemplate.Height = 24;
-            this.dgDatos.Size = new System.Drawing.Size(1483, 357);
+            this.dgDatos.Size = new System.Drawing.Size(1495, 357);
             this.dgDatos.TabIndex = 4;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.txtProbabilidad);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(780, 12);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(193, 97);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Probabilidad Resultante";
-            // 
-            // btnCancelarProceso
-            // 
-            this.btnCancelarProceso.Location = new System.Drawing.Point(1020, 46);
-            this.btnCancelarProceso.Name = "btnCancelarProceso";
-            this.btnCancelarProceso.Size = new System.Drawing.Size(199, 33);
-            this.btnCancelarProceso.TabIndex = 3;
-            this.btnCancelarProceso.Text = "Cortar Simulación";
-            this.btnCancelarProceso.UseVisualStyleBackColor = true;
-            this.btnCancelarProceso.Visible = false;
-            this.btnCancelarProceso.Click += new System.EventHandler(this.btnCancelarProceso_Click);
             // 
             // col_exp
             // 
@@ -217,6 +198,17 @@
             this.col_ac_semanas_exito.HeaderText = "Acumulador Éxito";
             this.col_ac_semanas_exito.Name = "col_ac_semanas_exito";
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.txtProbabilidad);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Location = new System.Drawing.Point(780, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(193, 97);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Probabilidad Resultante";
+            // 
             // txtProbabilidad
             // 
             this.txtProbabilidad.Location = new System.Drawing.Point(25, 47);
@@ -235,6 +227,17 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Probabilidad";
             // 
+            // btnCancelarProceso
+            // 
+            this.btnCancelarProceso.Location = new System.Drawing.Point(1020, 46);
+            this.btnCancelarProceso.Name = "btnCancelarProceso";
+            this.btnCancelarProceso.Size = new System.Drawing.Size(199, 33);
+            this.btnCancelarProceso.TabIndex = 3;
+            this.btnCancelarProceso.Text = "Cortar Simulación";
+            this.btnCancelarProceso.UseVisualStyleBackColor = true;
+            this.btnCancelarProceso.Visible = false;
+            this.btnCancelarProceso.Click += new System.EventHandler(this.btnCancelarProceso_Click);
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label5);
@@ -247,22 +250,6 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Configuración";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(35, 30);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(99, 17);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Mostrar desde";
-            // 
-            // txtFilaDesde
-            // 
-            this.txtFilaDesde.Location = new System.Drawing.Point(140, 27);
-            this.txtFilaDesde.Name = "txtFilaDesde";
-            this.txtFilaDesde.Size = new System.Drawing.Size(116, 22);
-            this.txtFilaDesde.TabIndex = 1;
             // 
             // label5
             // 
@@ -280,18 +267,33 @@
             this.txtCantidadFilas.Size = new System.Drawing.Size(116, 22);
             this.txtCantidadFilas.TabIndex = 3;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(35, 30);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(99, 17);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Mostrar desde";
+            // 
+            // txtFilaDesde
+            // 
+            this.txtFilaDesde.Location = new System.Drawing.Point(140, 27);
+            this.txtFilaDesde.Name = "txtFilaDesde";
+            this.txtFilaDesde.Size = new System.Drawing.Size(116, 22);
+            this.txtFilaDesde.TabIndex = 1;
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1507, 484);
+            this.ClientSize = new System.Drawing.Size(1519, 484);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.dgDatos);
             this.Controls.Add(this.btnCancelarProceso);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1525, 531);
             this.MinimumSize = new System.Drawing.Size(1525, 531);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
