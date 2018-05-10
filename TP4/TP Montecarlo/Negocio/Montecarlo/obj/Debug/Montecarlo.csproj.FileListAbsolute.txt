@@ -1,0 +1,5 @@
+D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\Negocio\Montecarlo\bin\Debug\Montecarlo.dll
+D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\Negocio\Montecarlo\bin\Debug\Montecarlo.pdb
+D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\Negocio\Montecarlo\obj\Debug\Montecarlo.csprojResolveAssemblyReference.cache
+D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\Negocio\Montecarlo\obj\Debug\Montecarlo.dll
+D:\Documentos\Ingenieria\4° Año\SIM\TP Montecarlo\TP Montecarlo\Negocio\Montecarlo\obj\Debug\Montecarlo.pdb

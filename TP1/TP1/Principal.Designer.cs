@@ -182,7 +182,7 @@
             this.dgMixto.Name = "dgMixto";
             this.dgMixto.RowHeadersVisible = false;
             this.dgMixto.RowTemplate.Height = 24;
-            this.dgMixto.Size = new System.Drawing.Size(544, 416);
+            this.dgMixto.Size = new System.Drawing.Size(544, 395);
             this.dgMixto.TabIndex = 7;
             // 
             // groupBox1
